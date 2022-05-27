@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #EAEBEF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    width: 300px;
+    height: 100vh;
+    background-color: #F0D27D;
+    overflow: hidden;
+    border-radius: 0 20px 20px 0px;
+    transition: transform 2s;
+    border-right: 1px solid black;
+    &__link{
+        color: #303440;
+        display: block;
+        padding: 15px 0;
+        text-decoration: none;
+        font-size: 14px;
+        &--inside{
+            border-radius: 6px;
+            padding-left: 5px;
+            text-align: left;
+            font-size: 12px;
+        }
+    }
+    &__icon{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        padding: 20px 10px;
+        height: 70px;
+        &__menu{
+            cursor: pointer;
+            transition: transform .3s;
+        }
+    }
+}
+
+
+.move-nav{
+    transform: translate(-250px,0);
+}
+
+.list{
+    width: 100%;
+    height: 100vh;
+    margin-top: -10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    &__item{
+        list-style: none;
+        width: 100%;
+        text-align: center;
+        background-color: transparent;
+        overflow: hidden;
+        &--click{
+            cursor: pointer;
+        }
+    }
+    &__button{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        width: 70%;
+        margin: 0 auto;
+    }
+    &__arrow{
+        margin-left: auto;
+        transition: transform .3s;
+    }
+    &__show{
+        width: 80%;
+        margin-left: auto;
+        border-left: 2px solid #303440;
+        list-style: none;
+        transition: height .4s;
+        height: 0;
+    }
+    &__inside{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-left: 10px;
+        &:hover{
+            background: #f6f8fa;
+        }
+    }
+}
+
+.arrow .list__arrow{
+    transform: rotate(90deg);
+}
