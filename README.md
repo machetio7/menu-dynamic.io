@@ -17,15 +17,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/machetio7/menu-dinamyc.io/blob/master/assets/NoExpandedNavigation.png)
-![](https://github.com/machetio7/menu-dinamyc.io/blob/master/assets/ExpandedNavigation.png)
-![](https://github.com/machetio7/menu-dinamyc.io/blob/master/assets/movileTheme.png)
+![](https://github.com/machetio7/menu-dynamic.io/blob/master/assets/NoExpandedNavigation.png)
+![](https://github.com/machetio7/menu-dynamic.io/blob/master/assets/ExpandedNavigation.png)
+![](https://github.com/machetio7/menu-dynamic.io/blob/master/assets/movileTheme.png)
 
 
 ### Links
 
-- Solution URL: [https://github.com/machetio7/menu-dinamyc.io.git](https://your-solution-url.com)
-- Live Site URL: [https://machetio7.github.io/menu-dinamyc.io/](https://your-live-site-url.com)
+- Solution URL: [https://github.com/machetio7/menu-dynamic.io.git](https://your-solution-url.com)
+- Live Site URL: [https://machetio7.github.io/menu-dynamic.io/](https://your-live-site-url.com)
 
 ## My process
 
